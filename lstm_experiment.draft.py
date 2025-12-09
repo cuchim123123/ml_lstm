@@ -311,7 +311,7 @@ class BasicLSTMBuilder(LSTMModelBuilder):
             LSTM(32),
             Dense(16, activation='relu'),
             Dense(1)
-        ])
+        ])\
         self.model = self.compile(self.model)
         return self.model
     
